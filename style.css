@@ -1,0 +1,74 @@
+.card-title {
+    color: white !important;
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
+}
+
+.card-text {
+    color: hsl(217, 12%, 63%);
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.selected-rating {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 25px;
+    padding: 8px 15px !important;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.card {
+    background: linear-gradient(to bottom, #485563, #29323c);
+    width: 25rem;
+}
+
+.star-icon {
+    background-color: hsl(213, 19%, 18%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/** Buttons **/
+
+.card .btn-primary {
+    background-color: hsl(25, 97%, 53%) !important;
+    border: none !important;
+    color: black !important;
+    text-transform: uppercase;
+    font-family: "Overpass", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.card .btn.btn-primary:hover {
+    background-color: white !important;
+}
+
+.card .rating-btn.btn {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%) !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    padding: 0;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.card .rating-btn.btn:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.card .rating-btn.btn:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: black !important;
+}
